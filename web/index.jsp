@@ -14,7 +14,7 @@
 
   <jsp:useBean id="fac" class="bean.faculty"/>
 
-  <jsp:setProperty name="fac" property="faculty_name" value="aqib"/>
+  <jsp:setProperty name="fac" property="faculty_name" value="M.aqib rehman"/>
   <jsp:setProperty name="fac" property="facukty_id" value="123456789"/>
 
   Facultty_name: <jsp:getProperty name="fac" property="faculty_name"/>
